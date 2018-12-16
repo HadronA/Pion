@@ -1,7 +1,7 @@
 #######################################################################################################################
-# pion@Hadron is open-sourced program based on python. So, you can freely adjust or fix this code. If you have some   #
-#problem or if you have done awesome modification to this program, please contact me: Hadron@yonsei.ac.kr . I appreci-#
-#ate to everyone to help me.                                                                                          #
+# PION is open-sourced program based on python. So, you can freely adjust or fix this code. If you have some problem  #
+#or if you have done awesome modification to this program, please contact me: Hadron@yonsei.ac.kr . I appreciate to   #
+#everyone to help me.                                                                                                 #
 #                    Atom color scheme is used at VMD's(visualized molecular dynamics) one.                           #
 #######################################################################################################################
 
@@ -138,12 +138,12 @@ vol = mlab.pipeline.volume(source, vmin=args.l, vmax=args.t)
 
 mlab.view(132, 54, 45, [np.mean(atoms_x), np.mean(atoms_y), np.mean(atoms_z)])
 
-print('       _               ____                  _                 ')
-print(' _ __ (_) ___  _ __   / __ \  /\  /\__ _  __| |_ __ ___  _ __  ')  
-print('| \'_ \| |/ _ \| \'_ \ / / _` |/ /_/ / _` |/ _` | \'__/ _ \| \'_ \ ') 
-print('| |_) | | (_) | | | | | (_| / __  / (_| | (_| | | | (_) | | | |') 
-print('| .__/|_|\___/|_| |_|\ \__,_\/ /_/ \__,_|\__,_|_|  \___/|_| |_|')  
-print('|_|                   \____/                                   ') 
+print('       _              ')
+print(' _ __ (_) ___  _ __   ')  
+print('| \'_ \| |/ _ \| \'_ \') 
+print('| |_) | | (_) | | | | ') 
+print('| .__/|_|\___/|_| |_| ')  
+print('|_|                   ') 
 
 
 #print("            **                  ")
